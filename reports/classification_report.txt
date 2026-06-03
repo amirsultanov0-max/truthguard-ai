@@ -1,0 +1,22 @@
+TruthGuard AI - Classification Report
+==================================================
+
+Accuracy: 0.9496
+
+              precision    recall  f1-score   support
+
+   Real News       0.96      0.95      0.95      6904
+   Fake News       0.94      0.95      0.94      5731
+
+    accuracy                           0.95     12635
+   macro avg       0.95      0.95      0.95     12635
+weighted avg       0.95      0.95      0.95     12635
+
+
+Confusion Matrix:
+[[6542  362]
+ [ 275 5456]]
+
+Label meaning:
+0 = Real News
+1 = Fake News
